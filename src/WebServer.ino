@@ -661,7 +661,7 @@ void getWebPageTemplateDefault(const String& tmplName, String& tmpl)
     getWebPageTemplateDefaultHead(tmpl, !addMeta, !addJS);
     tmpl += F("<body>"
               "<header class='apheader'>"
-              "<h1>Stefans Haus - Wilkommen</h1>"
+              "<h1>Jaron - Wilkommen</h1>"
               "</header>");
     getWebPageTemplateDefaultContentSection(tmpl);
     getWebPageTemplateDefaultFooter(tmpl);
@@ -711,7 +711,7 @@ void getWebPageTemplateDefaultHead(String& tmpl, bool addMeta, bool addJS) {
 
 void getWebPageTemplateDefaultHeader(String& tmpl, const String& title, bool addMenu) {
   tmpl += F("<header class='headermenu'>"
-            "<h1>Stefans Haus: ");
+            "<h1>Jaron: ");
   tmpl += title;
   tmpl += F("</h1><BR>");
 
