@@ -14,6 +14,7 @@
   #endif
 #endif
 
+#define USES_P054
 
 /****************************************************************************************************************************\
  * Arduino project "ESP Easy" © Copyright www.letscontrolit.com
