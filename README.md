@@ -15,5 +15,6 @@ If you know how to compile the latest ESPEasy, I always recommend to get to the 
 If you don't get it compiled, just download my binary from my built and push it to you ESP8266 Board.
 
 Download https://github.com/StefanRied/ESPEasy/blob/mega/build/firmware.bin
+
 Flash to the ESP8266
 esptool.py --port /dev/cu.wchusbserial30 --baud 460800 write_flash -fs 4MB -ff 80m 0x00000 build/firmware.bin
